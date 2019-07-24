@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Ben Haus -- web dev intern -- little-haus.com (Coming Soon!)
+    Kelli Jo Klein -- design -- @Kelli_jo_
+    Daniel Kalai -- copy
+
+# THANKS
+
+    Friends of Linda Fiels PAC
+    Fields4Senate
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, LESS
+    Modernizr, Normalize.css, Autoprefixer
