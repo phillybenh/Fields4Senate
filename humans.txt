@@ -14,5 +14,4 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, LESS
-    Modernizr, Normalize.css, Autoprefixer
+    CSS3, HTML5, Modernizr, Normalize.css

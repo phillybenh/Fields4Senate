@@ -93,8 +93,8 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-@logoblue: #2c7fc2;
-@logored: #f0534c;   #f4f4f4  #f0534c
+@logoblue:#3a3088
+@logored: #ef5152   #f4f4f4  #f0534c
 ========================================================================== */
 
 body {
@@ -112,14 +112,14 @@ body {
 }
 
 .intromeet {
-  background-color: #2c7fc2;
+  background-color: #3a3088;
   color: #f4f4f4;
   margin: 0;
   text-align: center;
   padding: 20px;
 }
 .intromeet h1 {
-  background-color: #2c7fc2;
+  background-color: #3a3088;
   margin: 0;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -132,14 +132,14 @@ body {
 }
 
 .intropri {
-  background-color: #f0534c;
+  background-color: #ef5152;
   color: #f4f4f4;
   margin: 0;
   text-align: center;
   padding: 20px;
 }
 .intropri h1 {
-  background-color: #f0534c;
+  background-color: #ef5152;
   margin: 0;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -150,11 +150,12 @@ body {
   list-style-type: none;
   line-height: 100px;
   height: 100px;
-  width: 95%;
+  /*  width: 95%; 
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  */
+  padding: 10px;
   overflow: hidden;
-  background-color: #f4f4f4;
+  background-color: #ef5152;
 }
 .navbar img {
   background-color: #f4f4f4;
@@ -165,7 +166,7 @@ body {
   font-size: 22px;
   font-weight: bold;
   display: block;
-  color: #2c7fc2;
+  color: #3a3088;
   float: right;
   text-align: center;
   padding: 0px 12px;
@@ -173,7 +174,7 @@ body {
 }
 
 .navbar a:hover:not(.active) {
-  background-color: #f0534c;
+  background-color: #f4f4f4;
 }
 
 .navbar .right {
@@ -243,13 +244,17 @@ body {
   flex-flow: row wrap;
   justify-content: center;
 }
+.socialcontainer {
+  margin: 30px;
+  padding: 15px;
+}
 figcaption {
   text-align: center;
 }
 
 .button {
-  background-color: #f0534c;
-  border: 3px solid #f0534c;
+  background-color: #ef5152;
+  border: 3px solid #ef5152;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -260,8 +265,8 @@ figcaption {
   cursor: pointer;
 }
 .button2 {
-  background-color: #2c7fc2;
-  border: 3px solid #2c7fc2;
+  background-color: #3a3088;
+  border: 3px solid #3a3088;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -282,7 +287,7 @@ figcaption {
   max-width: 325px;
   margin: 15px auto;
   padding: 5px;
-  border: 2px solid black; /*#2c7fc2*/
+  border: 2px solid black;
 }
 
 footer {
